@@ -8,35 +8,42 @@ class Program
         Console.WriteLine("Press any key to continue");
         Console.ReadKey();
         Console.Clear();
-
-        Console.WriteLine("Enter 1 to enter task");
-        Console.WriteLine("Enter 2 if you want to view the tasks");
-        Console.WriteLine("Enter 3 if your want to remove the entry");
-        Console.WriteLine("Enter 4 to exit the program");
-        int userInput = Convert.ToInt32(Console.ReadLine());
         
-        Lists inputObj = new Lists();
-        while (userInput != null)
+        string userInput = "";
+
+        List<string> tasks = new List<string>();
+
+        while (!userInput.Equals("4"))
         {
-            if (userInput.Equals(1))
+            Console.WriteLine("Enter 1 to enter task");
+            Console.WriteLine("Enter 2 if you want to view the tasks");
+            Console.WriteLine("Enter 3 if your want to remove the entry");
+            Console.WriteLine("Enter 4 to exit the program");
+            userInput = Console.ReadLine();
+            
+            if (userInput.Equals("1"))
             {
-                inputObj.TakeInput();
-                break;
-            }
-            else if (userInput.Equals(2))
+                Console.Write("Enter the task you want to enter: ");
+                string taskToBeAdded = Console.ReadLine();
+                tasks.Add(taskToBeAdded);
+               
+            }else if (userInput.Equals("2"))
             {
-                inputObj.DisplayOutput();
-                break;
-            }
-            else if (userInput.Equals(3))
+                Console.Write("Enter the task you want to delete: ");
+                string taskToBeDeleted = Console.ReadLine();
+                tasks.Remove(taskToBeDeleted);
+                
+            }else if (userInput.Equals("3"))
             {
-                Console.Clear();
-                inputObj.EntryRemove();
-                break;
+                foreach (var task in tasks)
+                {
+                    Console.WriteLine(task);
+                }
+                
             }
             else
             {
-                Environment.Exit(0);
+                 Environment.Exit(0);
             }
         }
     }
