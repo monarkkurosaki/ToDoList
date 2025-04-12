@@ -34,4 +34,20 @@ public class Lists
             Console.WriteLine(task);
         }
     }
+
+    public void EntryRemove()
+    {
+        Console.WriteLine("Enter the entry you want to remove");
+        string removalEntry = Console.ReadLine();
+        
+        foreach (var task in tasks)
+        {
+            if (task.Title.Equals(removalEntry))
+            {
+                int getIndex;
+                getIndex = tasks.FindIndex(t => t.Title.Equals(removalEntry));
+                tasks.Remove(tasks[getIndex]);
+            }
+        }
+    }
 }

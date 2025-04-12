@@ -10,18 +10,34 @@ class Program
         Console.Clear();
 
         Console.WriteLine("Enter 1 to enter task");
+        Console.WriteLine("Enter 2 if you want to view the tasks");
+        Console.WriteLine("Enter 3 if your want to remove the entry");
+        Console.WriteLine("Enter 4 to exit the program");
         int userInput = Convert.ToInt32(Console.ReadLine());
-
-        if (userInput.Equals(1))
-        {
-            Lists inputObj = new Lists();
-            inputObj.TakeInput();
-        }
-            
         
-        if (userInput.Equals(2))
+        Lists inputObj = new Lists();
+        while (userInput != null)
         {
-            
+            if (userInput.Equals(1))
+            {
+                inputObj.TakeInput();
+                break;
+            }
+            else if (userInput.Equals(2))
+            {
+                inputObj.DisplayOutput();
+                break;
+            }
+            else if (userInput.Equals(3))
+            {
+                Console.Clear();
+                inputObj.EntryRemove();
+                break;
+            }
+            else
+            {
+                Environment.Exit(0);
+            }
         }
     }
 }
