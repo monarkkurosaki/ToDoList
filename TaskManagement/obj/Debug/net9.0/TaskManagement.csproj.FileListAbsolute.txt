@@ -1,0 +1,15 @@
+/Users/monarkkurosaki/Desktop/TaskManagement/TaskManagement/bin/Debug/net9.0/TaskManagement
+/Users/monarkkurosaki/Desktop/TaskManagement/TaskManagement/bin/Debug/net9.0/TaskManagement.deps.json
+/Users/monarkkurosaki/Desktop/TaskManagement/TaskManagement/bin/Debug/net9.0/TaskManagement.runtimeconfig.json
+/Users/monarkkurosaki/Desktop/TaskManagement/TaskManagement/bin/Debug/net9.0/TaskManagement.dll
+/Users/monarkkurosaki/Desktop/TaskManagement/TaskManagement/bin/Debug/net9.0/TaskManagement.pdb
+/Users/monarkkurosaki/Desktop/TaskManagement/TaskManagement/obj/Debug/net9.0/TaskManagement.GeneratedMSBuildEditorConfig.editorconfig
+/Users/monarkkurosaki/Desktop/TaskManagement/TaskManagement/obj/Debug/net9.0/TaskManagement.AssemblyInfoInputs.cache
+/Users/monarkkurosaki/Desktop/TaskManagement/TaskManagement/obj/Debug/net9.0/TaskManagement.AssemblyInfo.cs
+/Users/monarkkurosaki/Desktop/TaskManagement/TaskManagement/obj/Debug/net9.0/TaskManagement.csproj.CoreCompileInputs.cache
+/Users/monarkkurosaki/Desktop/TaskManagement/TaskManagement/obj/Debug/net9.0/TaskManagement.sourcelink.json
+/Users/monarkkurosaki/Desktop/TaskManagement/TaskManagement/obj/Debug/net9.0/TaskManagement.dll
+/Users/monarkkurosaki/Desktop/TaskManagement/TaskManagement/obj/Debug/net9.0/refint/TaskManagement.dll
+/Users/monarkkurosaki/Desktop/TaskManagement/TaskManagement/obj/Debug/net9.0/TaskManagement.pdb
+/Users/monarkkurosaki/Desktop/TaskManagement/TaskManagement/obj/Debug/net9.0/TaskManagement.genruntimeconfig.cache
+/Users/monarkkurosaki/Desktop/TaskManagement/TaskManagement/obj/Debug/net9.0/ref/TaskManagement.dll
